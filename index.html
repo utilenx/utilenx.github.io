@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Utilen | High-Performance Creator Tools</title>
+    <title>Utilen | YouTube Utility & Analysis Suite</title>
     <link rel="canonical" href="https://utilen.blogspot.com/" />
     <meta http-equiv="refresh" content="3; URL=https://utilen.blogspot.com/">
     
@@ -12,6 +12,7 @@
             --primary: #2563eb;
             --dark: #0f172a;
             --light: #f8fafc;
+            --accent: #38bdf8;
         }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -25,46 +26,71 @@
             text-align: center;
         }
         .card {
-            padding: 2rem;
-            max-width: 400px;
-            border-radius: 24px;
-            background: rgba(255, 255, 255, 0.03);
+            padding: 2.5rem;
+            max-width: 450px;
+            border-radius: 28px;
+            background: rgba(255, 255, 255, 0.02);
             border: 1px solid rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(15px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
         }
-        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; letter-spacing: -1px; }
-        p { color: #94a3b8; line-height: 1.6; margin-bottom: 2rem; }
+        .brand { font-size: 2.8rem; font-weight: 800; margin-bottom: 0.5rem; letter-spacing: -1.5px; }
+        .brand span { color: var(--primary); }
+        .tagline { color: #94a3b8; line-height: 1.6; margin-bottom: 2rem; font-size: 1.1rem; }
+        
+        .suite-list {
+            text-align: left;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+        }
+        .suite-item { margin-bottom: 0.5rem; display: flex; align-items: center; }
+        .suite-item::before { content: "✓"; color: var(--accent); margin-right: 10px; font-weight: bold; }
+
         .btn {
             background: var(--primary);
             color: white;
             text-decoration: none;
-            padding: 12px 32px;
-            border-radius: 12px;
+            padding: 14px 40px;
+            border-radius: 14px;
             font-weight: 600;
-            transition: transform 0.2s;
+            transition: all 0.3s ease;
             display: inline-block;
+            box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3);
         }
-        .btn:active { transform: scale(0.95); }
-        .loader {
+        .btn:hover { background: #1d4ed8; transform: translateY(-2px); }
+        .btn:active { transform: scale(0.98); }
+        
+        .loader-text {
             margin-top: 1.5rem;
             font-size: 0.8rem;
-            color: #64748b;
+            color: #475569;
+            letter-spacing: 1px;
+            text-transform: uppercase;
         }
     </style>
 </head>
 <body>
 
     <div class="card">
-        <h1>Utilen<span style="color:var(--primary)">X</span></h1>
-        <p>The technical engine for high-resolution YouTube asset extraction and CTR optimization.</p>
+        <div class="brand">Utilen<span>X</span></div>
+        <p class="tagline">The professional engine for creator growth and asset management.</p>
         
-        <a href="https://utilen.blogspot.com/" class="btn">Enter Utilen Engine</a>
+        <div class="suite-list">
+            <div class="suite-item">4K Thumbnail Downloader</div>
+            <div class="suite-item">CTR Thumbnail Analyzer</div>
+            <div class="suite-item">Metadata Optimization Tools</div>
+        </div>
         
-        <div class="loader">Redirecting to official portal...</div>
+        <a href="https://utilen.blogspot.com/" class="btn">Enter Utilen Suite</a>
+        
+        <div class="loader-text">Redirecting to Main Portal...</div>
     </div>
 
     <script>
-        // Fallback Javascript redirect
+        // JS Fallback
         setTimeout(function(){
             window.location.href = "https://utilen.blogspot.com/";
         }, 3000);
