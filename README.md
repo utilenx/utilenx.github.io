@@ -1,40 +1,55 @@
-# YouTube Thumbnail Downloader & CTR Analyzer | UtilenX
+# Utilen – AI Job Risk Analyzer & Technology Insights
 
-**UtilenX** is the official technical repository for the Utilen Creator Suite. We provide high-performance tools for YouTube asset management, specifically focusing on high-resolution image extraction and click-through rate optimization.
+<p align="center">
+  Utilen – AI Job Risk Analyzer & Technology Insights
+</p>
 
-## 🔗 Access the Tools
-**[Launch Utilen Engine (Official Site)](https://utilen.blogspot.com/)**
+**Free, privacy-first, browser-based tool** that evaluates how exposed different professions are to AI automation — and gives you practical strategies to stay relevant.
+
+## What You Get
+
+Enter any job title or AI-related term and receive:
+
+- **Official Verdict** — Low / Medium / High risk classification  
+- **Automation Probability** — Numerical estimate  
+- **Risk Breakdown** — Why the job is vulnerable (or resilient)  
+- **Survival Strategy** — Concrete steps to adapt and future-proof your career  
+- **Technology Insights** — When querying AI companies, models, hardware or trends
+
+Powered by three core dimensions:  
+- Cognitive Complexity  
+- Physical Unpredictability  
+- Human Empathy Requirement  
+
+## Key Characteristics
+
+- Runs entirely **client-side** — zero data leaves your browser  
+- No sign-up, no tracking, no backend servers  
+- Regularly updated algorithmic dataset (current as of 2026)  
+- Works for thousands of professions + major AI companies/technologies
+
+## How to Use
+
+1. Visit → https://utilen.blogspot.com/  
+2. Type a job title (e.g. Software Engineer, Therapist, Plumber, Teacher)  
+   or an AI term (e.g. Nvidia, ChatGPT, AGI, Machine Learning)  
+3. Press Analyze  
+4. Read your report in seconds
+
+## Live Site
+
+🌐 https://utilen.blogspot.com/
+
+## Tech Stack
+
+- Hosted on Blogger  
+- Pure client-side JavaScript  
+- Algorithmic scoring with no external API calls
+
+## License
+
+MIT
 
 ---
 
-## 🛠️ Product Capabilities
-
-### 1. YouTube Thumbnail Downloader (Main Utility)
-The industry-standard tool for extracting thumbnails directly from the YouTube API CDN.
-* **4K (Ultra HD):** Extract full-quality `maxresdefault.jpg` assets.
-* **Standard Resolutions:** Support for 1080p (HD), 720p, and SD (480p).
-* **Format Support:** JPG, PNG, and WebP extraction.
-* **Use Case:** Perfect for graphic designers, reaction channels, and archival purposes.
-
-### 2. CTR Thumbnail Analyzer
-A data-driven utility to visualize thumbnail performance factors.
-* **Visual Hierarchy:** Analyzes contrast and focal points.
-* **Color Grading:** Detects saturation levels used in viral videos.
-* **Optimization:** Helps creators A/B test concepts before publishing.
-
----
-
-## 📂 Repository Information
-This repository (`utilenx.github.io`) serves as the:
-1.  **Canonical SEO Hub** for the Utilen brand.
-2.  **Public Documentation** for tool usage and updates.
-3.  **Verification Source** for the software suite.
-
-## 🚀 How to Use
-1.  Navigate to the [Official Utilen Site](https://utilen.blogspot.com/).
-2.  Paste your YouTube Video URL.
-3.  Select **"Get 4K Thumbnail"** or **"Analyze CTR"**.
-4.  Download or view results instantly.
-
----
-*Maintained by the Utilen Development Team.*
+Helping people understand — and prepare for — the AI future, one job at a time. 🚀
